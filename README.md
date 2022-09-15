@@ -22,19 +22,19 @@ The columns “EIN” and “NAME” were removed because they did not offer any
 ### Compiling, Training, and Evaluating the Model
 The first attempt at compiling the neural network consisted of eighty neurons in the first layer and thirty neurons in the second. Both layers were given relu activation functions and the output layer was given a sigmoid activation function:
 
-<img src=“https://github.com/pojones/neural_network_charity_analysis/blob/9d7be5c5db8cd5e3de3912f8274b65b15f8bac6c/images/firstModelAccuracy.png” />
+![](https://github.com/pojones/neural_network_charity_analysis/blob/9d7be5c5db8cd5e3de3912f8274b65b15f8bac6c/images/firstModelAccuracy.png)
 
 The second attempt doubled the nodes in each layer but kept the same activation function:
 
-<img src=“https://github.com/pojones/neural_network_charity_analysis/blob/9d7be5c5db8cd5e3de3912f8274b65b15f8bac6c/images/secondModelAccuracy.png” />
+![](https://github.com/pojones/neural_network_charity_analysis/blob/9d7be5c5db8cd5e3de3912f8274b65b15f8bac6c/images/secondModelAccuracy.png)
 
 The third attempt kept the same double nodes because it increased the speed of the model significantly. However, the activation function in the second layer was changed to sigmoid:
 
-<img src=“https://github.com/pojones/neural_network_charity_analysis/blob/9d7be5c5db8cd5e3de3912f8274b65b15f8bac6c/images/thirdModelAccuracy.png” />
+![](https://github.com/pojones/neural_network_charity_analysis/blob/9d7be5c5db8cd5e3de3912f8274b65b15f8bac6c/images/thirdModelAccuracy.png)
 
 The fourth attempt kept the same model but adjusted the incoming data. The columns “STATUS” and “SPECIAL_CONSIDERATIONS” were both removed. This bumped the accuracy of the model over the 73% mark:
 
-<img src=“https://github.com/pojones/neural_network_charity_analysis/blob/9d7be5c5db8cd5e3de3912f8274b65b15f8bac6c/images/fourthModelAccuracy.png” />
+![](https://github.com/pojones/neural_network_charity_analysis/blob/9d7be5c5db8cd5e3de3912f8274b65b15f8bac6c/images/fourthModelAccuracy.png)
 
 ## Summary
 These initial attempts did not create a model that performed better than 75%. Further look at the data and model parameters will be needed. Further analyses with visualization could aid in creating a more accurate model. 
